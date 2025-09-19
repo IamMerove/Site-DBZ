@@ -1,0 +1,66 @@
+<!DOCTYPE html>
+<html lang="fr">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Dragon Ball Z - KameHouse</title>
+    <link rel="stylesheet" href="style.css">
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link href="https://fonts.googleapis.com/css2?family=Bangers&display=swap" rel="stylesheet">
+</head>
+<body>
+    <header>
+        <nav>
+            <a href="index.html" class="logo" onclick="showSection('home')">DBZ Universe</a>
+            <ul class="nav-links">
+                <li><a href="index.html" onclick="showSection('home')">Accueil</a></li>
+                <li><a href="personnage.html" onclick="showSection('characters')">Personnages</a></li>
+                <li><a href="pouvoir.html" onclick="showSection('powers')">Pouvoirs</a></li>
+                <li><a href="apropos.html" onclick="showSection('about')">À Propos</a></li>
+            </ul>
+            <button class="dark-mode-toggle" onclick="toggleDarkMode()">🌙 Mode Sombre</button>
+            <div class="burger-menu" onclick="toggleMenu()">
+                <div class="burger-line"></div>
+                <div class="burger-line"></div>
+                <div class="burger-line"></div>
+            </div>
+        </nav>
+    </header>
+<div class="hero-container">
+        <div class="background-image"></div>
+        
+        <div class="stars" id="stars"></div>
+        
+        <div class="energy-orb orb-1"></div>
+        <div class="energy-orb orb-2"></div>
+        <div class="energy-orb orb-3"></div>
+        
+        
+</div>
+
+    <footer class="footer">
+        <div class="footer-content">
+            <div class="footer-section">
+                <h3>Dragon Ball Z</h3>
+                <p>L'univers légendaire des guerriers Saiyan</p>
+            </div>
+            
+            <div class="footer-section">
+                <h4>Suivez-nous</h4>
+                <div class="social-links">
+                    <a href="#" class="social-link">Facebook</a>
+                    <a href="#" class="social-link">Twitter</a>
+                    <a href="#" class="social-link">Instagram</a>
+                    <a href="#" class="social-link">YouTube</a>
+                </div>
+            </div>
+        </div>
+        
+        <div class="footer-bottom">
+            <p>&copy; 2025 Dragon Ball Z Fan Site. Tous droits réservés.</p>
+            <p>Dragon Ball Z est une œuvre d'Akira Toriyama</p>
+        </div>
+    </footer>
+</body>
+</html>
